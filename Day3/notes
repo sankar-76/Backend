@@ -1,0 +1,31 @@
+Req ka meaning ----
+aagr client saide means frontend se jo be information ya pdf ua kuch be file aayega usko hum (req) ke through access kar payenge
+res ka meanning ----
+aagar server ko kuch deta bjh na hota hai to voh res ka use karega
+
+
+
+# const express = require("express")
+
+# const app = express()
+
+# // const { json } = require(express)
+
+# app.use(express.json())
+
+# const  notes = []
+
+
+# app.post("/notes",(req,res) => {
+#   console.log(req.body);
+#   notes.push(req.body)
+#   res.send("Note's is created")
+# } )
+
+# app.get("/notes", (req,res) => {
+#   res.send(notes)
+# } )
+
+# app.listen(3000 ,() =>  {
+#   console.log("Port is running in 3000");  
+# })
